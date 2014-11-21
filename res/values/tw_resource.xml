@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="drawable" name="tw_screen_background_dark">#ff00151c</item>
+    <item type="drawable" name="tw_screen_background_dark_666">#ff060606</item>
+    <item type="drawable" name="tw_screen_background_dark_888">#ff080808</item>
+    <item type="drawable" name="tw_screen_background_light">#fff5f5f5</item>
+    
+    
+    <item type ="color" name="tw_action_bar_title_text_holo_dark">#fff5f5f5</item>
+    <color name="tw_action_bar_title_shadow_color_holo_dark">#b2000000</color>
+    <color name="tw_action_bar_sub_title_text_holo_dark">#ffc1eef6</color>
+    <color name="transparent">#00000000</color>
+
+    <dimen name="tw_action_bar_title_text_size">20.0dip</dimen>
+    <dimen name="tw_action_bar_subtitle_text_size">13.0dip</dimen>
+    <dimen name="tw_action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="tw_action_bar_menu_text_size">19.0dip</dimen>
+    <item type="dimen" name="tw_action_bar_title_shadow_dx_holo_dark">0.0</item>
+    <item type="dimen" name="tw_action_bar_title_shadow_dy_holo_dark">1.0</item>
+    <item type="dimen" name="tw_action_bar_menu_shadow_dy_holo_dark">1.0</item>
+    <dimen name="tw_spinner_ab_dropdown_vertical_offset">-6.0dip</dimen>  
+    <dimen name="tw_optionmenu_text_size">20.0sp</dimen>
+    <dimen name="tw_compactmenu_width">20.0sp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    >
+
+    <string name="app_name">ThemesTest</string>
+	<string name="storage">Storage</string>
+	<string name="usage">usage</string>
+	<string name="menu_home">HOME</string>
+	<string name="delete">delete</string>
+	<string name="select_item">select item</string>
+	
+	<string name="selected_num">"selected <xliff:g id="message">%0$2d</xliff:g>"</string>
+	<string name="actiontitle_dialpad">Phone</string> 
+	<string name="actiontitle_history">Logs</string> 
+	<string name="actiontitle_favourite">Favorites</string> 
+	<string name="actiontitle_contact">Contacts</string>	 
+</resources>

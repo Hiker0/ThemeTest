@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_menu_search"
+        android:showAsAction="always" /> -->
+	    <item android:id="@+id/action_usage"
+	        android:title="@string/usage"
+	        android:showAsAction="always" />
+	    <item android:id="@+id/dodo"
+	        android:title="dodo"
+	        android:showAsAction="always" />
+	    <item android:id="@+id/action_storage"
+	        android:title="@string/storage"
+	        android:showAsAction="collapseActionView" 
+	        />
+		<item android:id="@+id/action_ftp"
+	        android:title="@string/usage" 
+	        android:showAsAction="collapseActionView"
+	        />	
+		<item android:id="@+id/action_exit"
+	        android:title="@string/menu_home" 
+	        android:showAsAction="collapseActionView"
+	        />
+
+</menu>

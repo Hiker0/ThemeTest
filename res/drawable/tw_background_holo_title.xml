@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	     android:drawable="@drawable/tw_screen_background_selector_light" />
+	<item
+	     android:bottom="600.0dip"
+	     android:drawable="@drawable/tw_background_holo_title_color" />	
+</layer-list>  

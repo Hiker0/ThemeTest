@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TestTheme" parent="SamsungTheme.Light">
+    
+	</style>
+	
+ 	<style name="ListTestTheme" parent="SamsungTheme.Light">
+    
+	</style>
+	<style name="actionbartestTheme" parent="SamsungTheme.Light">
+    	<item name="android:actionBarSize">64.0dip</item>
+	</style>
+	<style name="DialogTestTheme" parent="@android:style/Theme.Holo.Light">
+	</style>	
+</resources>
