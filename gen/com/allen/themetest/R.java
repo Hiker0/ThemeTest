@@ -8,25 +8,28 @@
 package com.allen.themetest;
 
 public final class R {
+    public static final class array {
+        public static final int viewby_items_easy=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class color {
-        public static final int transparent=0x7f060003;
-        public static final int tw_action_bar_sub_title_text_holo_dark=0x7f060002;
-        public static final int tw_action_bar_title_shadow_color_holo_dark=0x7f060001;
-        public static final int tw_action_bar_title_text_holo_dark=0x7f060000;
+        public static final int transparent=0x7f070003;
+        public static final int tw_action_bar_sub_title_text_holo_dark=0x7f070002;
+        public static final int tw_action_bar_title_shadow_color_holo_dark=0x7f070001;
+        public static final int tw_action_bar_title_text_holo_dark=0x7f070000;
     }
     public static final class dimen {
-        public static final int tw_action_bar_menu_shadow_dy_holo_dark=0x7f070006;
-        public static final int tw_action_bar_menu_text_size=0x7f070003;
-        public static final int tw_action_bar_subtitle_bottom_margin=0x7f070002;
-        public static final int tw_action_bar_subtitle_text_size=0x7f070001;
-        public static final int tw_action_bar_title_shadow_dx_holo_dark=0x7f070004;
-        public static final int tw_action_bar_title_shadow_dy_holo_dark=0x7f070005;
-        public static final int tw_action_bar_title_text_size=0x7f070000;
-        public static final int tw_compactmenu_width=0x7f070009;
-        public static final int tw_optionmenu_text_size=0x7f070008;
-        public static final int tw_spinner_ab_dropdown_vertical_offset=0x7f070007;
+        public static final int tw_action_bar_menu_shadow_dy_holo_dark=0x7f080006;
+        public static final int tw_action_bar_menu_text_size=0x7f080003;
+        public static final int tw_action_bar_subtitle_bottom_margin=0x7f080002;
+        public static final int tw_action_bar_subtitle_text_size=0x7f080001;
+        public static final int tw_action_bar_title_shadow_dx_holo_dark=0x7f080004;
+        public static final int tw_action_bar_title_shadow_dy_holo_dark=0x7f080005;
+        public static final int tw_action_bar_title_text_size=0x7f080000;
+        public static final int tw_compactmenu_width=0x7f080009;
+        public static final int tw_optionmenu_text_size=0x7f080008;
+        public static final int tw_spinner_ab_dropdown_vertical_offset=0x7f080007;
     }
     public static final class drawable {
         public static final int action_bar_tab_icon_contacts=0x7f020000;
@@ -153,23 +156,25 @@ public final class R {
         public static final int tw_tab_unselected_pressed_holo_light=0x7f020075;
     }
     public static final class id {
-        public static final int action_exit=0x7f090010;
-        public static final int action_ftp=0x7f09000f;
-        public static final int action_storage=0x7f09000e;
-        public static final int action_usage=0x7f09000c;
-        public static final int checkbox=0x7f09000a;
-        public static final int createbutton=0x7f090006;
-        public static final int custom_title_root=0x7f090007;
-        public static final int delete=0x7f09000b;
-        public static final int dialog=0x7f090003;
-        public static final int dodo=0x7f09000d;
-        public static final int etname=0x7f090005;
-        public static final int name=0x7f090009;
-        public static final int selection_menu=0x7f090008;
-        public static final int tab_custom_layout=0x7f090000;
-        public static final int tab_custom_view_icon=0x7f090001;
-        public static final int tab_custom_view_text=0x7f090002;
-        public static final int tvname=0x7f090004;
+        public static final int action_exit=0x7f0a0012;
+        public static final int action_ftp=0x7f0a0011;
+        public static final int action_storage=0x7f0a0010;
+        public static final int action_usage=0x7f0a000e;
+        public static final int checkbox=0x7f0a000c;
+        public static final int create_popup=0x7f0a0007;
+        public static final int createbutton=0x7f0a0008;
+        public static final int custom_title_root=0x7f0a0009;
+        public static final int delete=0x7f0a000d;
+        public static final int dialog=0x7f0a0003;
+        public static final int dodo=0x7f0a000f;
+        public static final int etname=0x7f0a0005;
+        public static final int name=0x7f0a000b;
+        public static final int selection_menu=0x7f0a000a;
+        public static final int spinner=0x7f0a0006;
+        public static final int tab_custom_layout=0x7f0a0000;
+        public static final int tab_custom_view_icon=0x7f0a0001;
+        public static final int tab_custom_view_text=0x7f0a0002;
+        public static final int tvname=0x7f0a0004;
     }
     public static final class layout {
         public static final int actionbar_custom_tab=0x7f030000;
@@ -181,8 +186,8 @@ public final class R {
         public static final int tabbar_test=0x7f030006;
     }
     public static final class menu {
-        public static final int list_multi_select_menu_with_selectall=0x7f080000;
-        public static final int main_activity=0x7f080001;
+        public static final int list_multi_select_menu_with_selectall=0x7f090000;
+        public static final int main_activity=0x7f090001;
     }
     public static final class string {
         public static final int actiontitle_contact=0x7f04000a;
@@ -196,6 +201,10 @@ public final class R {
         public static final int selected_num=0x7f040006;
         public static final int storage=0x7f040001;
         public static final int usage=0x7f040002;
+        public static final int viewby_alllogs=0x7f04000b;
+        public static final int viewby_dialledcalls=0x7f04000d;
+        public static final int viewby_missedcalls=0x7f04000c;
+        public static final int viewby_receivedcalls=0x7f04000e;
     }
     public static final class style {
         /** 
@@ -210,11 +219,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050004;
-        public static final int DialogTestTheme=0x7f050003;
-        public static final int ListTestTheme=0x7f050001;
-        public static final int MyActionBar_Title=0x7f050025;
-        public static final int MyActionBar_subtitle=0x7f050026;
+        public static final int AppBaseTheme=0x7f060004;
+        public static final int DialogTestTheme=0x7f060003;
+        public static final int ListTestTheme=0x7f060001;
+        public static final int MyActionBar_Title=0x7f060026;
+        public static final int MyActionBar_subtitle=0x7f060027;
         /** - =========================================================================================== 
 
 		<item name="android:panelMenuListWidth">@dimen/tw_compactmenu_width</item>
@@ -223,43 +232,59 @@ public final class R {
         <item name="alertDialogTheme">@style/Theme.SamsungTheme.Dialog.Alert</item>
         
          */
-        public static final int SamsungTheme=0x7f050016;
-        public static final int SamsungTheme_ActionBar_Title=0x7f050014;
-        public static final int SamsungTheme_ActionBar_subtitle=0x7f050015;
-        public static final int SamsungTheme_ActionBarTabTextAppearance_Light=0x7f050013;
-        public static final int SamsungTheme_DialogWindowTitle_Light=0x7f05000a;
+        public static final int SamsungTheme=0x7f060017;
+        public static final int SamsungTheme_ActionBar_Title=0x7f060015;
+        public static final int SamsungTheme_ActionBar_subtitle=0x7f060016;
+        public static final int SamsungTheme_ActionBarTabTextAppearance_Light=0x7f060014;
+        public static final int SamsungTheme_DialogWindowTitle_Light=0x7f06000a;
         /** - =========================================================================================== 
          */
-        public static final int SamsungTheme_Light=0x7f050005;
-        public static final int TestTheme=0x7f050000;
-        public static final int TextAppearance_Holo_DialogWindowTitle=0x7f05000b;
-        public static final int TextAppearance_SamsungTheme_OptionMenu=0x7f05001c;
+        public static final int SamsungTheme_Light=0x7f060005;
+        /**  
+    <style name="TestTheme" parent="@android:Theme.DeviceDefault.Light">
+    
+	</style>
+	
+ 	<style name="ListTestTheme" parent="@android:Theme.DeviceDefault.Light">
+    
+	</style>
+	<style name="actionbartestTheme" parent="@android:Theme.DeviceDefault.Light">
+    	<item name="android:actionBarSize">64.0dip</item>
+	</style>
+	<style name="DialogTestTheme" parent="@android:Theme.DeviceDefault.Light">
+	</style>
+	 
+         */
+        public static final int TestTheme=0x7f060000;
+        public static final int TextAppearance_Holo_DialogWindowTitle=0x7f06000b;
+        public static final int TextAppearance_SamsungTheme_OptionMenu=0x7f06001d;
         /**  for actionbar 
          */
-        public static final int TextAppearance_SamsungTheme_Widget_ActionBar_Menu=0x7f050023;
-        public static final int TextAppearance_SamsungTheme_Widget_DropDownHint=0x7f050017;
-        public static final int Theme_SamsungTheme_Alert_Light=0x7f050009;
-        public static final int Theme_SamsungTheme_CompactMenu=0x7f05001a;
-        public static final int Widget_SamsungTheme_ActionBar_TabBar=0x7f050012;
-        public static final int Widget_SamsungTheme_ActionBar_TabView=0x7f050010;
-        public static final int Widget_SamsungTheme_ActionButton_Light=0x7f050006;
-        public static final int Widget_SamsungTheme_ActionButton_Overflow=0x7f05001f;
-        public static final int Widget_SamsungTheme_ActionMode_Light=0x7f050011;
-        public static final int Widget_SamsungTheme_AlertDialog_Light=0x7f050008;
-        public static final int Widget_SamsungTheme_Button_Light=0x7f050007;
-        public static final int Widget_SamsungTheme_CompactMenu_ListView=0x7f050018;
-        public static final int Widget_SamsungTheme_DropdownStyle=0x7f050022;
-        public static final int Widget_SamsungTheme_ListPopupWindow=0x7f050020;
-        public static final int Widget_SamsungTheme_ListView=0x7f05001b;
-        public static final int Widget_SamsungTheme_ListView_DropDown=0x7f050019;
-        public static final int Widget_SamsungTheme_PopupMenu=0x7f050021;
-        public static final int Widget_SamsungTheme_PopupMenu_Light=0x7f05000c;
-        public static final int Widget_SamsungTheme_PopupWindow=0x7f05001d;
-        public static final int Widget_SamsungTheme_PopupWindow_Light=0x7f05000d;
-        public static final int Widget_SamsungTheme_Spinner_DropDown=0x7f05001e;
-        public static final int Widget_SamsungTheme_Spinner_DropDown_Light=0x7f05000e;
-        public static final int Widget_SamsungTheme_TitleStyle=0x7f050024;
-        public static final int Widget_SamsungTheme_actionBarStyle_Light=0x7f05000f;
-        public static final int actionbartestTheme=0x7f050002;
+        public static final int TextAppearance_SamsungTheme_Widget_ActionBar_Menu=0x7f060024;
+        public static final int TextAppearance_SamsungTheme_Widget_DropDownHint=0x7f060018;
+        public static final int Theme_SamsungTheme_Alert_Light=0x7f060009;
+        public static final int Theme_SamsungTheme_CompactMenu=0x7f06001b;
+        public static final int Widget_SamsungTheme_ActionBar_TabBar=0x7f060013;
+        public static final int Widget_SamsungTheme_ActionBar_TabView=0x7f060011;
+        public static final int Widget_SamsungTheme_ActionButton_Light=0x7f060006;
+        public static final int Widget_SamsungTheme_ActionButton_Overflow=0x7f060020;
+        public static final int Widget_SamsungTheme_ActionMode_Light=0x7f060012;
+        public static final int Widget_SamsungTheme_AlertDialog_Light=0x7f060008;
+        public static final int Widget_SamsungTheme_Button_Light=0x7f060007;
+        public static final int Widget_SamsungTheme_CompactMenu_ListView=0x7f060019;
+        public static final int Widget_SamsungTheme_DropdownStyle=0x7f060023;
+        public static final int Widget_SamsungTheme_ListPopupWindow=0x7f060021;
+        public static final int Widget_SamsungTheme_ListView=0x7f06001c;
+        public static final int Widget_SamsungTheme_ListView_DropDown=0x7f06001a;
+        public static final int Widget_SamsungTheme_PopupMenu=0x7f060022;
+        public static final int Widget_SamsungTheme_PopupMenu_Light=0x7f06000c;
+        public static final int Widget_SamsungTheme_PopupWindow=0x7f06001e;
+        public static final int Widget_SamsungTheme_PopupWindow_Light=0x7f06000d;
+        public static final int Widget_SamsungTheme_Spinner_DropDown=0x7f06001f;
+        public static final int Widget_SamsungTheme_Spinner_DropDown_Light=0x7f06000e;
+        public static final int Widget_SamsungTheme_TextView_SpinnerItem=0x7f06000f;
+        public static final int Widget_SamsungTheme_TitleStyle=0x7f060025;
+        public static final int Widget_SamsungTheme_actionBarStyle_Light=0x7f060010;
+        public static final int actionbartestTheme=0x7f060002;
     }
 }

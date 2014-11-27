@@ -14,5 +14,18 @@
 	<string name="actiontitle_dialpad">Phone</string> 
 	<string name="actiontitle_history">Logs</string> 
 	<string name="actiontitle_favourite">Favorites</string> 
-	<string name="actiontitle_contact">Contacts</string>	 
+	<string name="actiontitle_contact">Contacts</string>	
+	
+    <string name="viewby_alllogs">All logs</string>
+    <string name="viewby_missedcalls">Missed calls</string>
+    <string name="viewby_dialledcalls">Dialled calls</string>
+    <string name="viewby_receivedcalls">Received calls</string>
+    	
+    <string-array name="viewby_items_easy">
+    <item>@string/viewby_alllogs</item>
+    <item>@string/viewby_dialledcalls</item>
+    <item>@string/viewby_receivedcalls</item>
+    <item>@string/viewby_missedcalls</item>
+    </string-array>
+    	
 </resources>

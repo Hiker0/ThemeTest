@@ -8,7 +8,10 @@
 	  
 	  <item name="android:popupMenuStyle">@style/Widget.SamsungTheme.PopupMenu.Light</item>
 	  <item name="android:popupWindowStyle">@style/Widget.SamsungTheme.PopupWindow</item>           
-	  <item name="android:dropDownSpinnerStyle">@style/Widget.SamsungTheme.Spinner.DropDown</item>
+	  <item name="android:dropDownSpinnerStyle">@style/Widget.SamsungTheme.Spinner.DropDown.Light</item>
+	  <item name="android:spinnerItemStyle">@style/Widget.SamsungTheme.TextView.SpinnerItem</item>
+	  <item name="android:spinnerStyle">?android:attr/dropDownSpinnerStyle</item>
+	  
 	  <item name="android:dropDownListViewStyle">@style/Widget.SamsungTheme.ListView.DropDown</item>
 	  <item name="android:listPopupWindowStyle">@style/Widget.SamsungTheme.ListPopupWindow</item>
 	  <item name="android:listViewStyle">@style/Widget.SamsungTheme.ListView</item>
@@ -94,8 +97,13 @@
         <item name="android:dropDownSelector">@drawable/tw_list_selector_holo_light</item>
         <item name="android:popupBackground">@drawable/tw_menu_dropdown_panel_holo_light</item>
         <item name="android:dropDownVerticalOffset">0.0dip</item>
-    </style>    
-        
+    </style>   
+     
+  	<style name="Widget.SamsungTheme.TextView.SpinnerItem" parent="android:Widget.Holo.TextView.SpinnerItem">
+        <item name="android:padding">10dp</item> 
+    </style>
+    
+  
 	<style name="Widget.SamsungTheme.actionBarStyle.Light" parent="Widget.SamsungTheme.TitleStyle">
         <item name="android:background">@drawable/tw_ab_transparent_light_holo</item>
         <item name="android:titleTextStyle">@style/SamsungTheme.ActionBar.Title</item>
